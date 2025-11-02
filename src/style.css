@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-left: 5px solid #000; /* Theme color will be applied here */
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  color: #777;
+}
+
+.card-description {
+  margin-top: 10px;
+}
+
+.card-link {
+  display: block;
+  margin-top: 10px;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+}

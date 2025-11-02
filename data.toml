@@ -1,0 +1,20 @@
+[[items]]
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+link = "https://example.com/1"
+subtitle = "Subtitle 1"
+theme_color = "#FF5733"
+title = "Item 1"
+
+[[items]]
+description = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+link = "https://example.com/2"
+subtitle = "Subtitle 2"
+theme_color = "#337DFF"
+title = "Item 2"
+
+[[items]]
+description = "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+link = "https://example.com/3"
+subtitle = "Subtitle 3"
+theme_color = "#33FF57"
+title = "Item 3"

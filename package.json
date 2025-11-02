@@ -1,0 +1,17 @@
+{
+	"name": "card-list",
+	"version": "1.0.0",
+	"description": "A static HTML page with a list of cards",
+	"scripts": {
+		"build": "gulp",
+		"watch": "gulp watch"
+	},
+	"devDependencies": {
+		"gulp": "^5.0.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-nunjucks-render": "^2.2.3",
+		"gulp-rename": "^2.1.0",
+		"gulp-toml": "^0.2.0"
+	}
+}
