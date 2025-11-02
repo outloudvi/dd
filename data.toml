@@ -12,8 +12,16 @@ link = "https://www.bilibili.com/video/av18527451/"
 title = "レイジー・レイジー"
 subtitle = "アイドルマスター シンデレラガールズ"
 description = "宫本芙蕾德莉卡 (CV. 髙野麻美) 和一之濑志希 (CV. 藍原ことみ) 组成的组合。组合代表曲是由 TAKU INOUE 制作的《クレイジークレイジー》，Jersey Club 神曲。"
-link = "https://dic.pixiv.net/a/%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%83%BB%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC"
 theme_color = "#d33261"
 [items.trailer]
 title = "《クレイジークレイジー》 (SS3A ver.)"
 link = "https://www.bilibili.com/video/av226239930/"
+
+[[items]]
+title = "星宮とと"
+description = "数字艺术家，兼做歌手/企划/设计/视频制作等。形象是白毛灰衣妹子。声音柔和。"
+link = "https://hoshimiyatoto.com/"
+theme_color = "#f3f3f3"
+[items.trailer]
+title = "星宮とと×TEMPLIME - 《純粋》"
+link = "https://www.youtube.com/watch?v=2ahue0rfPLw"

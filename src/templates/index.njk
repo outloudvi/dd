@@ -17,7 +17,9 @@
       <div class="card-title center">{{ item.title }}</div>
       <div class="card-subtitle center">{{ item.subtitle }}</div>
       <p class="card-description">{{ item.description }}</p>
-      <a href="{{ item.link }}" target="_blank">更多介绍…</a>
+      {% if item.link %}
+        <a href="{{ item.link }}" target="_blank">更多介绍…</a>
+      {% endif %}
       <a class="trailer" href="{{ item.trailer.link }}" target="_blank">{{ item.trailer.title }}</a>
     </div>
     {% endfor %}
