@@ -1,4 +1,4 @@
-.title {
+.center {
   text-align: center;
 }
 
@@ -20,7 +20,6 @@
 .card-title {
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
 }
 
 .card-subtitle {
@@ -32,11 +31,16 @@
   margin-top: 10px;
 }
 
-.card-link {
-  display: block;
+.card-links {
+  display: flex;
   margin-top: 10px;
+  gap: 7px;
 }
 
-.card:hover {
-  background-color: #f0f0f0;
+.trailer {
+  margin-top: 5px;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  border: solid #777 2px;
 }

@@ -1,20 +1,19 @@
 [[items]]
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-link = "https://example.com/1"
-subtitle = "Subtitle 1"
-theme_color = "#FF5733"
-title = "Item 1"
+title = "KARAKURI"
+subtitle = "Tokyo 7th Sisters"
+description = "由秋奈演绎，Tokyo-7th 的同卵双胞胎双子组合空栗一叶/空栗双叶。音色空灵，情感丰富。"
+link = "https://t7s.jp/character/unit/10.html"
+theme_color = "#8d62d3"
+[items.trailer]
+title = "《B.A.A.B》"
+link = "https://www.bilibili.com/video/av18527451/"
 
 [[items]]
-description = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-link = "https://example.com/2"
-subtitle = "Subtitle 2"
-theme_color = "#337DFF"
-title = "Item 2"
-
-[[items]]
-description = "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-link = "https://example.com/3"
-subtitle = "Subtitle 3"
-theme_color = "#33FF57"
-title = "Item 3"
+title = "レイジー・レイジー"
+subtitle = "アイドルマスター シンデレラガールズ"
+description = "宫本芙蕾德莉卡 (CV. 髙野麻美) 和一之濑志希 (CV. 藍原ことみ) 组成的组合。组合代表曲是由 TAKU INOUE 制作的《クレイジークレイジー》，Jersey Club 神曲。"
+link = "https://dic.pixiv.net/a/%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%83%BB%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC"
+theme_color = "#d33261"
+[items.trailer]
+title = "《クレイジークレイジー》 (SS3A ver.)"
+link = "https://www.bilibili.com/video/av226239930/"
