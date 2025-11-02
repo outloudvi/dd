@@ -1,7 +1,13 @@
 {
-	"name": "card-list",
+	"name": "dd",
+	"description": "だれでも大好き",
 	"version": "1.0.0",
-	"description": "A static HTML page with a list of cards",
+	"homepage": "https://dd.outv.im",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/outloudvi/dd.git"
+	},
+	"private": true,
 	"scripts": {
 		"build": "gulp",
 		"watch": "gulp watch"
