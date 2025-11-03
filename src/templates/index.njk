@@ -15,13 +15,15 @@
   <div class="card-container">
     {% for item in items %}
     <div class="card" style="border-left-color: {{ item.theme_color }}">
-      <div class="card-title center">{{ item.title }}</div>
-      <div class="card-subtitle center">{{ item.subtitle }}</div>
-      <p class="card-description">{{ item.description }}</p>
-      {% if item.link %}
-        <a href="{{ item.link }}" target="_blank">更多介绍…</a>
-      {% endif %}
-      <a class="trailer" href="{{ item.trailer.link }}" target="_blank">{{ item.trailer.title }}</a>
+      <div>
+        <div class="card-title center">{{ item.title }}</div>
+        <div class="card-subtitle center">{{ item.subtitle }}</div>
+        <p class="card-description">{{ item.description }}</p>
+        {% if item.link %}
+          <a href="{{ item.link }}" target="_blank">更多介绍…</a>
+        {% endif %}
+      </div>
+      <a class="trailer" href="{{ item.trailer.link }}" target="_blank" style="border-color: {{ item.theme_color }}">{{ item.trailer.title }}</a>
     </div>
     {% endfor %}
   </div>

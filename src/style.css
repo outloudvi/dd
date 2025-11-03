@@ -9,6 +9,9 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 300px;
   margin: 20px;
   border: 1px solid #ccc;
@@ -38,7 +41,7 @@
 }
 
 .trailer {
-  margin-top: 5px;
+  margin-top: 10px;
   display: block;
   padding: 5px;
   text-align: center;
