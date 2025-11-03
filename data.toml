@@ -19,9 +19,27 @@ link = "https://www.bilibili.com/video/av226239930/"
 
 [[items]]
 title = "星宮とと"
-description = "数字艺术家，兼做歌手/企划/设计/视频制作等。形象是白毛灰衣妹子。声音柔和。"
+description = "数字艺术家，兼做歌手/企划/设计/视频制作等。形象是白毛灰衣蓝瞳妹子，声音柔和。"
 link = "https://hoshimiyatoto.com/"
 theme_color = "#f3f3f3"
 [items.trailer]
 title = "星宮とと×TEMPLIME - 《純粋》"
 link = "https://www.youtube.com/watch?v=2ahue0rfPLw"
+
+[[items]]
+title = "somunia"
+description = "在互联网某处的一室栖息和歌唱的少女，蓝发有角但是没有三倍速。YouTube 上最出名的曲目是和 nyankobrq & yaca 合作，接近千万播放量的《twinkle light》。"
+link = "https://somunia.net/"
+theme_color = "#89aed7"
+[items.trailer]
+title = "Special Mini Live \"reverie\""
+link = "https://www.youtube.com/watch?v=llUc6VZyHLw"
+
+[[items]]
+title = "Marpril"
+description = "由谷田透佳和立花铃组成的双人组合。除了引人入胜的音乐之外，精致的 3D 建模和动感的舞步也是 Marpril 的亮点。"
+link = "https://www.youtube.com/@MarprilChannel"
+theme_color = "#a347ff"
+[items.trailer]
+title = "PSYQUI feat. Marirl - Girly Cupid"
+link = "https://www.youtube.com/watch?v=8gAN3hUiVAQ"
