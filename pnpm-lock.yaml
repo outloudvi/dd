@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      dayjs:
+        specifier: ^1.11.19
+        version: 1.11.19
       gulp:
         specifier: ^5.0.1
         version: 5.0.1
@@ -180,6 +183,9 @@ packages:
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+
+  dayjs@1.11.19:
+    resolution: {integrity: sha512-t5EcLVS6QPBNqM2z8fakk/NKel+Xzshgt8FFKAn+qwlD1pzZWxh0nVCrvFK7ZDb6XucZeF9z8C7CBWTRIVApAw==}
 
   detect-file@1.0.0:
     resolution: {integrity: sha512-DtCOLG98P007x7wiiOmfI0fi3eIKyWiLTGJ2MDnVi/E04lWGbf+JzrRHMm0rgIIZJGtHpKpbVgLWHrv8xXpc3Q==}
@@ -886,6 +892,8 @@ snapshots:
       is-plain-object: 5.0.0
 
   core-util-is@1.0.3: {}
+
+  dayjs@1.11.19: {}
 
   detect-file@1.0.0: {}
 

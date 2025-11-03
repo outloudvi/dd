@@ -5,6 +5,13 @@ const fs = require('fs')
 const htmlmin = require('gulp-htmlmin')
 const cleanCSS = require('gulp-clean-css')
 const nunjucksRender = require('gulp-nunjucks-render')
+const { execSync } = require('child_process')
+const dayjs = require('dayjs')
+const dayjsUtc = require('dayjs/plugin/utc')
+const dayjsTimezone = require('dayjs/plugin/timezone')
+
+dayjs.extend(dayjsUtc)
+dayjs.extend(dayjsTimezone)
 
 gulp.task('toml', () => {
   return gulp
@@ -20,11 +27,19 @@ gulp.task('minify-css', () => {
 
 gulp.task('generate-html', () => {
   const data = JSON.parse(fs.readFileSync('dist/data.json', 'utf-8'))
+  const lastCommitTs = Number(
+    execSync('git log -1 --format=%ct').toString('utf-8')
+  )
   return gulp
     .src('src/templates/*.njk')
     .pipe(
       nunjucksRender({
-        data: data,
+        data: {
+          ...data,
+          lastCommitDate: dayjs(lastCommitTs * 1000)
+            .tz('Asia/Hong_Kong')
+            .format('YYYY/MM/DD'),
+        },
         path: ['src/templates', 'dist'],
       })
     )
