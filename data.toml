@@ -52,3 +52,13 @@ theme_color = "#d8c8ed"
 [items.trailer]
 title = "虚拟JK、首次挑战露营!孤零零的也能做到!大概…。"
 link = "https://www.bilibili.com/video/av466417018/"
+
+[[items]]
+title = "Photon Maiden"
+subtitle = "D4DJ"
+description = "由出云咲姬（CV. 纺木吏佐）、新岛衣舞纪（CV. 前岛亚美→七木奏音）、花卷乙和（CV. 岩田阳葵）、福岛诺亚（CV. 佐藤日向）组成的团体。曲目多为 EDM 风格，歌词含有英文的情况也较多。偏梦幻色彩的组合，只要别想起来C位的CV是纺木吏佐……"
+link = "https://d4dj-pj.com/character/#photon-maiden"
+theme_color = "#0b8083"
+[items.trailer]
+title = "《Be with the world》 (live)"
+link = "https://www.bilibili.com/video/av292981039/"
