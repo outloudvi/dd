@@ -54,3 +54,9 @@ html {
   text-align: center;
   border: solid #777 2px;
 }
+
+footer {
+  margin-top: 20px;
+  color: grey;
+  font-size: 0.9rem;
+}
