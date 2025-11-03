@@ -43,3 +43,12 @@ theme_color = "#a347ff"
 [items.trailer]
 title = "PSYQUI feat. Marirl - Girly Cupid"
 link = "https://www.youtube.com/watch?v=8gAN3hUiVAQ"
+
+[[items]]
+title = "アズマリム"
+description = "梓璃梦是之前以可爱后辈，现在以本田小狼 C125 为特点的 VTuber。大概是最命运多舛的 VTuber 之一：中之人更换危机、遭受骨折之疾、工资问题……总之最后成为了个人势 VTuber。"
+link = "https://www.youtube.com/@Azumalim"
+theme_color = "#d8c8ed"
+[items.trailer]
+title = "虚拟JK、首次挑战露营!孤零零的也能做到!大概…。"
+link = "https://www.bilibili.com/video/av466417018/"
