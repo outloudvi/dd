@@ -62,3 +62,13 @@ theme_color = "#0b8083"
 [items.trailer]
 title = "《暁》 (live)"
 link = "https://www.bilibili.com/video/av114114546439072/"
+
+[[items]]
+title = "港白金女学院"
+subtitle = "電音部"
+description = "由黒鉄たま(CV.秋奈)、白金煌(CV.小宮有紗)、灰島銀華(CV.澁谷梓希)组成的团体。中之人都是电音大手：秋奈声线清奇、澁谷梓希是 AZK 名义的 DJ，小宫有纱更是水团电音王。"
+link = "https://denonbu.jp/area/azabu"
+theme_color = "#000000"
+[items.trailer]
+title = "《KOI WAZURAI》 (電音部 2nd live)"
+link = "https://www.bilibili.com/video/av114190261951786"
