@@ -60,3 +60,34 @@ footer {
   color: grey;
   font-size: 0.9rem;
 }
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  .card {
+    background-color: #2d2d2d;
+    border-color: #555;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .card-subtitle {
+    color: #bbb;
+  }
+
+  .trailer {
+    border-color: #777;
+    color: #e0e0e0;
+  }
+
+  footer {
+    color: #999;
+  }
+
+  a {
+    color: #93c5fd;
+  }
+}
