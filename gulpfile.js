@@ -1,14 +1,14 @@
-const gulp = require('gulp')
-const toml = require('gulp-toml')
-const rename = require('gulp-rename')
-const fs = require('fs')
-const htmlmin = require('gulp-htmlmin')
-const cleanCSS = require('gulp-clean-css')
-const nunjucksRender = require('gulp-nunjucks-render')
-const { execSync } = require('child_process')
-const dayjs = require('dayjs')
-const dayjsUtc = require('dayjs/plugin/utc')
-const dayjsTimezone = require('dayjs/plugin/timezone')
+import gulp from 'gulp'
+import toml from 'gulp-toml'
+import rename from 'gulp-rename'
+import fs from 'fs'
+import htmlmin from 'gulp-htmlmin'
+import cleanCSS from 'gulp-clean-css'
+import nunjucksRender from 'gulp-nunjucks-render'
+import { execSync } from 'child_process'
+import dayjs from 'dayjs'
+import dayjsUtc from 'dayjs/plugin/utc.js'
+import dayjsTimezone from 'dayjs/plugin/timezone.js'
 
 dayjs.extend(dayjsUtc)
 dayjs.extend(dayjsTimezone)
