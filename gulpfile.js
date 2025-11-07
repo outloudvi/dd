@@ -27,6 +27,10 @@ gulp.task('minify-css', () => {
 
 gulp.task('generate-html', () => {
   const data = JSON.parse(fs.readFileSync('dist/data.json', 'utf-8'))
+  const compare = new Intl.Collator(['ja']).compare
+  const sortedItems = [...data.items]
+    .sort((a, b) => compare(a.title, b.title))
+    .sort((a, b) => (a.order ?? 99999) - (b.order ?? 99999))
   const lastCommitTs = Number(
     execSync('git log -1 --format=%ct -- data.toml').toString('utf-8')
   )
@@ -35,7 +39,7 @@ gulp.task('generate-html', () => {
     .pipe(
       nunjucksRender({
         data: {
-          ...data,
+          items: sortedItems,
           lastCommitDate: dayjs(lastCommitTs * 1000)
             .tz('Asia/Hong_Kong')
             .format('YYYY/MM/DD'),

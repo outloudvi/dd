@@ -4,6 +4,7 @@ subtitle = "Tokyo 7th Sisters"
 description = "由秋奈演绎，Tokyo-7th的同卵双胞胎双子组合空栗一叶/空栗双叶。音色空灵，情感丰富。"
 link = "https://t7s.jp/character/unit/10.html"
 theme_color = "#8d62d3"
+order = 1
 [items.trailer]
 title = "《B.A.A.B》"
 link = "https://www.bilibili.com/video/av18527451/"
