@@ -28,7 +28,7 @@ gulp.task('minify-css', () => {
 gulp.task('generate-html', () => {
   const data = JSON.parse(fs.readFileSync('dist/data.json', 'utf-8'))
   const lastCommitTs = Number(
-    execSync('git log -1 --format=%ct').toString('utf-8')
+    execSync('git log -1 --format=%ct -- data.toml').toString('utf-8')
   )
   return gulp
     .src('src/templates/*.njk')
