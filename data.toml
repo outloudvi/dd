@@ -73,3 +73,21 @@ theme_color = "#000000"
 [items.trailer]
 title = "《KOI WAZURAI》 (電音部 2nd live)"
 link = "https://www.bilibili.com/video/av114190261951786"
+
+[[items]]
+title = "ミライアカリ"
+description = "VTuber四天王之一。官方中文译名「未来明」（不过我比较喜欢烤肉man旅人老师的译名「满星光」）。2023年引退。初始形象由KEI设计。中之人性格开朗、声线多变、唱歌好听、擅长造梗，而且综艺感强。Akari可以说是我开始看VTuber的契机。"
+link = "https://youtube.com/@bittranslate"
+theme_color = "#57acf8"
+[items.trailer]
+title = "《ロキ》 (cover)"
+link = "https://www.youtube.com/watch?v=f_3t9AhqnUw"
+
+[[items]]
+title = "DOLLCHESTRA"
+subtitle = "Love Live! 蓮ノ空女学院スクールアイドルクラブ"
+description = "由村野沙耶香（CV.野中心菜）、徒町小铃（CV.叶山风花）、夕雾缀理（CV.佐佐木琴子，已毕业）组成的团体。曲风偏抒情。脱线的前辈和靠谱的后辈，后辈照顾前辈的样子太可爱了。"
+theme_color = "#205aa7"
+[items.trailer]
+title = "《ジブンダイアリー》 (1st live tour ver.)"
+link = "https://www.bilibili.com/video/av323590720/"
