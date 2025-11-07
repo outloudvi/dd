@@ -3,6 +3,10 @@
 	"description": "だれでも大好き",
 	"version": "1.0.0",
 	"homepage": "https://dd.outv.im",
+	"author": {
+		"name": "Outvi V",
+		"url": "https://outv.im"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/outloudvi/dd.git"
@@ -15,11 +19,13 @@
 	},
 	"devDependencies": {
 		"dayjs": "^1.11.19",
+		"feed": "^5.1.0",
 		"gulp": "^5.0.1",
 		"gulp-clean-css": "^4.3.0",
 		"gulp-htmlmin": "^5.0.1",
 		"gulp-nunjucks-render": "^2.2.3",
 		"gulp-rename": "^2.1.0",
+		"gulp-tap": "^2.0.0",
 		"gulp-toml": "^0.2.0"
 	}
 }
