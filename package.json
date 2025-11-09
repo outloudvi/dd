@@ -15,7 +15,9 @@
 	"private": true,
 	"scripts": {
 		"build": "gulp",
-		"watch": "gulp watch"
+		"dev:watch": "npm run build && gulp watch",
+		"dev:serve": "http-server dist/",
+		"dev": "npm-run-all --parallel dev:**"
 	},
 	"devDependencies": {
 		"dayjs": "^1.11.19",
@@ -26,6 +28,8 @@
 		"gulp-nunjucks-render": "^2.2.3",
 		"gulp-rename": "^2.1.0",
 		"gulp-tap": "^2.0.0",
-		"gulp-toml": "^0.2.0"
+		"gulp-toml": "^0.2.0",
+		"http-server": "^14.1.1",
+		"npm-run-all": "^4.1.5"
 	}
 }
