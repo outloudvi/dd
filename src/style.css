@@ -22,18 +22,22 @@ html {
   width: 300px;
   margin: 20px;
   border: 1px solid #ccc;
-  border-left: 5px solid #000; /* Theme color will be applied here */
+  border-left: 5px solid transparent; /* Theme color will be applied here */
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
+.card.smaller .card-title {
+  font-size: 1rem;
+}
+
 .card-subtitle {
-  font-size: 16px;
+  font-size: 0.9rem;
   color: #777;
 }
 
@@ -53,6 +57,11 @@ html {
   padding: 5px;
   text-align: center;
   border: solid #777 2px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #777;
 }
 
 footer {

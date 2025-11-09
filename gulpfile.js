@@ -31,6 +31,7 @@ gulp.task('toml', () => {
           execSync('git log -1 --format=%ct -- data.toml').toString('utf-8')
         )
         const result = {
+          ...body,
           items: sortedItems,
           lastCommitDate: dayjs(lastCommitTs * 1000)
             .tz('Asia/Hong_Kong')

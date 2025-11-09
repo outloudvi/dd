@@ -33,6 +33,18 @@
     </div>
     {% endfor %}
   </div>
+  {% if morelove %}
+  <h2 class="center">More Love...</h2>
+  <div class="card-container">
+    {% for item in morelove %}
+    <div class="card smaller">
+        <a href="{{item.link}}" target="_blank">
+          <div class="card-title center">{{ item.title }}</div>
+        </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
   <footer class="center">
     <a href="data.json" target="_blank">JSON</a> | <a href="https://github.com/outloudvi/dd">GitHub</a>
   </footer>
