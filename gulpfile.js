@@ -72,6 +72,9 @@ gulp.task('minify-html', () => {
 gulp.task('build-feed', () => {
   const data = JSON.parse(fs.readFileSync('dist/data.json', 'utf-8'))
   const packageJson = JSON.parse(fs.readFileSync('package.json', 'utf-8'))
+  const updateDate = data.lastCommitTs
+    ? new Date(data.lastCommitTs * 1000)
+    : new Date()
 
   const feed = new Feed({
     title: "Outvi V's DD",
@@ -79,7 +82,7 @@ gulp.task('build-feed', () => {
     id: packageJson.homepage,
     link: packageJson.homepage,
     language: 'zh',
-    updated: new Date(data.lastCommitTs * 1000),
+    updated: updateDate,
     generator: 'dd-gulp-feed',
     feedLinks: {
       json: new URL('feed.json', packageJson.homepage).toString(),
@@ -95,6 +98,7 @@ gulp.task('build-feed', () => {
       title,
       id: title,
       link: trailer_link,
+      date: updateDate,
       description,
       content: trailer_title,
     })
