@@ -14,8 +14,8 @@ link = "https://t7s.jp/character/unit/10.html"
 theme_color = "#8d62d3"
 order = 1
 [items.trailer]
-title = "《B.A.A.B》"
-link = "https://www.bilibili.com/video/av18527451/"
+title = "《Winning Day》 (live)"
+link = "https://www.bilibili.com/video/av112999868140496/?t=311"
 
 [[items]]
 title = "レイジー・レイジー"
@@ -80,7 +80,7 @@ link = "https://denonbu.jp/area/azabu"
 theme_color = "#000000"
 [items.trailer]
 # 本来打算找一首非 cover 曲，但是 live 上三人组均参与演唱的原创曲不太多（例如电音部的 4th live 上三人就没能共同作为港白金组出场）。这场 live 在这曲之前的《Love Me Harder》虽然也符合这个要求也很好听，但 remix 太普通了。
-title = "《pop enemy》 (cover, 電音部 アザブエリア 2nd live)"
+title = "《pop enemy》 (cover, live)"
 link = "https://www.bilibili.com/video/av1652235937/?t=1590"
 
 [[items]]
@@ -98,5 +98,5 @@ subtitle = "Love Live! 蓮ノ空女学院スクールアイドルクラブ"
 description = "由村野沙耶香（CV.野中心菜）、徒町小铃（CV.叶山风花）、夕雾缀理（CV.佐佐木琴子，已毕业）组成的团体。曲风偏抒情。脱线的前辈和靠谱的后辈，后辈照顾前辈的样子太可爱了。"
 theme_color = "#205aa7"
 [items.trailer]
-title = "《ジブンダイアリー》 (1st live tour ver.)"
+title = "《ジブンダイアリー》 (live)"
 link = "https://www.bilibili.com/video/av323590720/"
