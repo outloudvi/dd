@@ -100,3 +100,11 @@ theme_color = "#205aa7"
 [items.trailer]
 title = "《ジブンダイアリー》 (live)"
 link = "https://www.bilibili.com/video/av323590720/"
+
+[[items]]
+title = "ASOBINOTES"
+description = "电音部、学园偶像大师及 vα-liv 等企划的音乐厂牌。"
+link = "https://asobinotes.bn-ent.net/"
+[items.trailer]
+title = "ASOBINOTES DANCE MUSIC MIX"
+link = "https://www.youtube.com/watch?v=FyyVIyhByIw"
