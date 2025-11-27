@@ -105,6 +105,7 @@ link = "https://www.bilibili.com/video/av323590720/"
 title = "ASOBINOTES"
 description = "电音部、学园偶像大师及 vα-liv 等企划的音乐厂牌。"
 link = "https://asobinotes.bn-ent.net/"
+theme_color = "#101010"
 [items.trailer]
 title = "ASOBINOTES DANCE MUSIC MIX"
 link = "https://www.youtube.com/watch?v=FyyVIyhByIw"
