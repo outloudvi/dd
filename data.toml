@@ -109,3 +109,13 @@ theme_color = "#101010"
 [items.trailer]
 title = "ASOBINOTES DANCE MUSIC MIX"
 link = "https://www.youtube.com/watch?v=FyyVIyhByIw"
+
+[[items]]
+title = "Vivid BAD SQUAD"
+subtitle = "プロジェクトセカイ カラフルステージ！ feat. 初音ミク"
+description = "由小豆沢こはね（CV.秋奈）、白石杏（CV.鷲見友美ジェナ)、東雲彰人（CV.今井文也）、青柳冬弥（CV.伊東健人）组成的团体。唱功自然是没话说，Giga/TeddyLoid/八王子P的作曲更是适合EDM听众。"
+link = "https://pjsekai.sega.jp/character/unite03/index.html"                                                             # "unite"?
+theme_color = "#e16"
+[items.trailer]
+title = "Ultra C (live)"
+link = "https://www.bilibili.com/video/av113369034004110"
