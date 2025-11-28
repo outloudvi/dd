@@ -21,9 +21,11 @@
   <p class="center"><a href="https://outv.im">Outvi V</a> (aka. OVV) 的<ruby>单推<rt>だれでも大好き</rt></ruby>记录（截至 {{ lastCommitDate }}）。</p>
   <div class="card-container">
     {% for item in items %}
-    <div class="card" style="border-left-color: {{ item.theme_color }}">
+    <div id="{{ item.title }}" class="card" style="border-left-color: {{ item.theme_color }}">
       <div>
-        <div class="card-title center">{{ item.title }}</div>
+        <div class="card-title center">
+          {{ item.title }} <a href="#{{ item.title }}" class="anchor" aria->#</a>
+        </div>
         <div class="card-subtitle center">{{ item.subtitle }}</div>
         <p class="card-description">{{ item.description }}</p>
         {% if item.link %}

@@ -36,6 +36,16 @@ html {
   font-size: 1rem;
 }
 
+.anchor {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.anchor:focus,
+.anchor:hover {
+  text-decoration: underline;
+}
+
 .card-subtitle {
   font-size: 0.9rem;
   color: #777;
@@ -70,6 +80,10 @@ footer {
   font-size: 0.9rem;
 }
 
+:target {
+  background-color: yellow !important;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   body {
@@ -98,5 +112,9 @@ footer {
 
   a {
     color: #93c5fd;
+  }
+
+  :target {
+    background-color: #747d00 !important;
   }
 }
